@@ -1,13 +1,13 @@
-#Anthropometric Analysis of Height and Arm Length
+# Anthropometric Analysis of Height and Arm Length
 This repository contains an analysis of height and arm length data, exploring their relationship and the influence of gender.
 
-##Project Overview
+## Project Overview
 The project analyzes a dataset of height and arm length measurements and gender information. The analysis includes data cleaning, summary statistics, correlation analysis, various regression models, and an examination of the arm-to-height ratio.
 
-##Data
+## Data
 The analysis uses data from an Excel file containing height and arm length measurements and gender for a sample of individuals.
 
-##Analysis Steps
+## Analysis Steps
 The analysis involved several stages:
 
 Data Preparation: The raw data was loaded and cleaned to remove extraneous information, standardize formats, and prepare it for analysis.
@@ -22,9 +22,10 @@ Robustness Check: Regression models were re-run after identifying and excluding 
 Ratio Analysis: The arm-to-height ratio was calculated, its distribution analyzed, and a t-test was performed to compare the ratio between genders.
 Model Comparison: The performance and results of the different regression models were compiled and compared.
 Model Diagnostics: Residuals from the final model were analyzed visually to check model assumptions.
-Results and Findings
-The analysis provides a detailed understanding of:
 
+## Results and Findings
+
+The analysis provides a detailed understanding of:
 The typical height and arm length measurements in the sample and how they vary by gender.
 The strength and statistical significance of the linear association between height and arm length.
 Regression equations that predict arm length based on height and gender.
